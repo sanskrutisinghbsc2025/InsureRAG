@@ -1,0 +1,63 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# HTTP Requests
+requests
+aiohttp
+
+# Data Processing
+pandas
+numpy
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-google-genai
+
+# Embeddings and Vector Store
+sentence-transformers
+chromadb
+
+# Document Processing
+pypdf
+python-docx
+docx2txt
+unstructured[local-inference]
+python-pptx
+
+# Excel Processing
+openpyxl
+xlrd
+
+# Search and Ranking
+rank-bm25
+
+# Reranking
+torch
+transformers
+
+# Image Processing (OCR)
+pytesseract #ensure it is downloaded on device and path is added
+pillow
+
+# Office Document Conversion (Windows)
+comtypes #for windows server only
+
+# Data Validation
+pydantic
+
+# Async Support
+asyncio-throttle
+
+# Text Splitting
+tiktoken
+
+# Cross-encoder for reranking
+# Note: This is typically included with transformers, but some setups may need:
+# sentence-transformers
+
+# Optional: If you need specific model downloads
+# huggingface-hub

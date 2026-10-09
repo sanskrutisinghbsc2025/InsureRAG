@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saas-bg: #f4f7f6;
+  --color-saas-card: #ffffff;
+  --color-saas-border: #e2e8f0;
+  --color-saas-text: #0f172a;
+  --color-saas-primary: #2563eb;
+}
+
+body {
+  background-color: var(--color-saas-bg);
+  color: var(--color-saas-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
